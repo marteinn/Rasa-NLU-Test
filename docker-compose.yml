@@ -1,0 +1,6 @@
+version: '3'
+services:
+    rasa_nlu:
+        image: rasa/rasa_nlu:latest-full
+        ports:
+            - "5000:5000"
